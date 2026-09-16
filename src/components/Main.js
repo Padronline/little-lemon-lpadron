@@ -1,4 +1,6 @@
 import Menu from './Menu';
+import Testimonials from './Testimonials';
+import About from './About';
 
 function Main() {
   return (
@@ -13,8 +15,11 @@ function Main() {
           </p>
           <a href="/booking" className="btn-reserve">Reserve a Table</a>
         </div>
+        <div className="hero-image"></div>
       </section>
       <Menu />
+      <Testimonials />
+      <About />
     </main>
   );
 }
