@@ -50,3 +50,35 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.hero {
+  background-color: var(--color-primary-green);
+  color: #ffffff;
+  padding: 60px 40px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  color: var(--color-primary-yellow);
+  font-size: 48px;
+  margin-bottom: 0;
+}
+
+.hero-text h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+.btn-reserve {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: var(--color-primary-yellow);
+  color: #333333;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
