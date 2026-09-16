@@ -14,7 +14,7 @@ function About() {
           recipe passed down through the family for generations.
         </p>
       </div>
-      <div className="about-image"></div>
+      <img src="https://placehold.co/400x300/edefee/495e57?text=Our+Kitchen" alt="Little Lemon kitchen" className="about-image" />
     </section>
   );
 }
