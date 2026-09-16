@@ -7,6 +7,7 @@ function Menu() {
       <div className="menu-list">
         {recipes.map((item) => (
           <div className="menu-card" key={item.id}>
+            <img src={item.image} alt={item.name} className="menu-card-img" />
             <h3>{item.name}</h3>
             <p className="price">{item.price}</p>
             <p>{item.description}</p>
