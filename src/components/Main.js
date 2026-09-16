@@ -15,7 +15,7 @@ function Main() {
           </p>
           <a href="/booking" className="btn-reserve">Reserve a Table</a>
         </div>
-        <div className="hero-image"></div>
+        <img src="https://placehold.co/400x300/ee9972/ffffff?text=Little+Lemon" alt="Little Lemon food" className="hero-image" />
       </section>
       <Menu />
       <Testimonials />
