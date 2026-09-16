@@ -104,3 +104,31 @@
   color: #ee9972;
   font-weight: bold;
 }
+
+.booking {
+  padding: 40px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
+}
+
+.booking-form label {
+  font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+
+.booking-form .btn-reserve {
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
