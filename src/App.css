@@ -30,3 +30,23 @@
   color: var(--color-secondary-dark);
   font-weight: bold;
 }
+
+.footer {
+  background-color: var(--color-primary-green);
+  color: #ffffff;
+  padding: 40px;
+  text-align: center;
+}
+
+.footer-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+}
+
+.footer-list a {
+  color: #ffffff;
+  text-decoration: none;
+}
