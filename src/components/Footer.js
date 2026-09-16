@@ -3,7 +3,7 @@ function Footer() {
     <footer className="footer" id="contact">
       <div className="footer-columns">
         <div className="footer-column">
-          <h3 className="logo">Little Lemon</h3>
+          <h3 className="footer-logo">Little Lemon</h3>
           <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#menu">Menu</a></li>
