@@ -1,3 +1,5 @@
+import Menu from './Menu';
+
 function Main() {
   return (
     <main>
@@ -12,6 +14,7 @@ function Main() {
           <a href="/booking" className="btn-reserve">Reserve a Table</a>
         </div>
       </section>
+      <Menu />
     </main>
   );
 }

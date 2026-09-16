@@ -1,0 +1,28 @@
+const recipes = [
+  {
+    id: 1,
+    name: 'Greek Salad',
+    price: '$12.99',
+    description: 'The famous greek salad of crispy lettuce, peppers, olives and feta cheese, garnished with crunchy garlic and rosemary croutons.',
+  },
+  {
+    id: 2,
+    name: 'Bruschetta',
+    price: '$5.99',
+    description: 'Our Bruschetta is made from grilled bread that has been smeared with garlic and seasoned with salt and olive oil.',
+  },
+  {
+    id: 3,
+    name: 'Grilled Fish',
+    price: '$20.00',
+    description: 'Fresh grilled fish, served with a side of seasonal vegetables and lemon herb sauce.',
+  },
+  {
+    id: 4,
+    name: 'Lemon Dessert',
+    price: '$7.00',
+    description: "This comes straight from grandma's recipe book, every last ingredient has been sourced and is authentic to the very last herb and spice.",
+  },
+];
+
+export default recipes;
