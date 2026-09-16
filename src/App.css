@@ -6,7 +6,8 @@
   background-color: #ffffff;
   padding: 20px 40px;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -14,4 +15,18 @@
   font-size: 32px;
   font-weight: bold;
   margin: 0;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--color-secondary-dark);
+  font-weight: bold;
 }
